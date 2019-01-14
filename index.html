@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Giphy Page</title>
+  <!-- Reset CSS -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Javascript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Animal Giphy Search</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" id="new-buttons"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <form id="form">
+                <label for="user-input">Type in your favorite animal and see what happens!</label><br>
+                <input type="text" id="user-input">
+                <input id="submitting" type="submit" value="Submit" class="btn btn-default">
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" id="display-gifs"></div>
+    </div>
+
+</div>    
+<!-- Link to JS -->
+<script src="assets/giphyjavascript.js"></script>
+</body>
+</html>
